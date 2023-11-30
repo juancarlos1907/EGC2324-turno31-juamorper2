@@ -7,6 +7,8 @@
     <link type="text/css" rel="stylesheet" href="{% static "booth/style.css" %}" />
 {% endblock %}
 
+
+
 {% block content %}
     <div id="app-visualizer">
         <!-- Navbar -->
@@ -47,11 +49,25 @@
     </div>
 {% endblock %}
 
+
+
+
+
+
+
+
+
 {% block extrabody %}
     <!-- Vuejs -->
     <script src="https://unpkg.com/vue"></script>
     <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
     <script src="https://unpkg.com/bootstrap@5.2.2/dist/js/bootstrap.js"></script>
+
+
+
+
+
+
 
     <script>
         var voting = {{voting|safe}};
